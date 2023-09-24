@@ -52,6 +52,8 @@ android {
 
 dependencies {
 
+    implementation("androidx.compose.material:material-icons-extended")
+
     val nav_version = "2.5.3"
     // Kotlin
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
